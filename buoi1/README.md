@@ -1,20 +1,10 @@
 ## Tên
-'''
 Nguyễn Duy Quân
-'''
-## Ngày sinh
-'''
+## Ngày Sinh
 17/10/2006
-'''
-## Lớp
-'''
+## Lớp 
 10
-'''
 ## Trường
-'''
 Vinschool Central Park
-'''
 ## Thành Phố
-'''
 Hồ Chí Minh
-'''
