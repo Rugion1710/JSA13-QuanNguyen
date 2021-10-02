@@ -46,9 +46,10 @@
 
 .header-items>li>a {
     text-decoration: none;
-    font-size: 32px;
+    font-size: 20px;
     text-transform: uppercase;
     color: white;
+    margin-right: 10px;
 }
 
 .header-welcome {
@@ -94,12 +95,12 @@
     border-bottom: 5px solid orange;
 }
 
-.first-body-header>p{
+.first-body-header>h6{
     text-align: center;
     margin-top: 50px;
     padding: 0 400px 0 400px;
     color: black;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .first-body-container {
@@ -125,6 +126,10 @@
     margin: 10px;
 }
 
+.paragraph>h6 {
+    font-size: 15px;
+}
+
 .body-photos {
     display: flex;
     width: 100%;
@@ -136,3 +141,218 @@
     width: 25%
 }
 
+.instructions {
+    background:rgb(245, 245, 245);
+    height: 750px;
+}
+
+.instructions-content>img {
+    height: 400px;
+    margin: 70px 0 0 480px;
+    float: left;
+}
+
+.instructions-title {
+    text-align: center;
+    width: 100%;
+}
+
+.instructions-title>h1 {
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+.instructions-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 100px;
+    padding-top: 100px
+}
+
+.instructions-text>h3 {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.line {
+    width: 100px;
+    margin: auto;
+    border-bottom: 5px solid orange;
+}
+
+.store>img {
+    height: 40px;
+    width: auto;
+}
+
+.store {
+    padding-left: 790px;
+    padding-top: 20px;
+}
+
+.cities {
+    height: 800px;
+}
+
+.cities-title {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.cities-title>h1 {
+    margin-bottom: 20px;
+}
+
+
+.cities-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cities-content>img {
+    width: 250px;
+}
+
+.cities-content>h3 {
+    margin: 10px;
+}
+
+.cities-content>h3>i {
+    color: orange;
+}
+.subscription {
+    background: rgb(245, 245, 245);
+    height: 750px;
+}
+
+.subscription-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.subscription-header>h1 {
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+.subscription-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.subscription-content {
+    background: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    text-align: left;
+}
+
+.subscription-content>h6 {
+    font-size: 18px;
+    margin: 15px;
+}
+
+.subscription-content>h1 {
+    font-size: 18px;
+    margin-left: 15px;
+    color: orange;
+}
+
+.subscription-content>h1>span {
+    font-size: 60px;
+}
+
+.subscription-content>hr {
+    color: lightgray;
+}
+
+.subscription-content>h6>i{
+    color: orange;
+}
+
+.subscription-content>button {
+    border-radius: 20px;
+    background-color: Transparent;
+    border-color: orange;
+    color: orange;
+    font-weight: bold;
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    text-align: center;
+    margin: 20px auto auto auto;
+    font-size: 18px;
+    width: 60%;
+}
+
+.reviews {
+    height: 650px;
+}
+
+.reviews-title>h1 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.review-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.reviews-text {
+    float: left;
+    text-align: left;
+}
+
+.reviews-text>h1 {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.form {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+.form>input {
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.reviews>button {
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    background-color: orange;
+    border-color: orange;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 435px;
+}
+
+.footer {
+    background: rgb(51, 48, 48);
+    height: 150px
+}
+
+.footer>h1 {
+    padding-top: 75px;
+    text-align: center;
+    color: white;
+}
