@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="input">
+        <input id="todo" type="text" value=""/>
+        <button id="add">Add</button>
+        <button id="clear">Clear</button>
+    </div>
+    <div>
+        <ul id="result">
+            <li></li>
+        </ul>
+    </div>
+    <script>
+        // string : number
+        let todo = document.getElementById("todo")
+        let add = document.getElementById("add")
+        add.addEventListener("click", function(){localStorage.setItem("a",x)})
+        // string => array,object
+        localStorage.getItem("a",r)
+        r.innerHTML(appendChild(li))
+        // Tạo Event cho Button Add (Thêm dữ liệu từ Input vào LocalStorage)
+        // Tạo hàm Render ra dữ liệu từ LocalStorage (Reload,Add,Clear)
+        // Tạo Event cho Button Clear (Xóa tất cả dữ liệu trong LocalStorage)
+    </script>
+</body>
+</html>
